@@ -32,5 +32,7 @@ namespace ProductsAPI.Models
 
         public DbSet<ProductsAPI.Models.AddressDetails> AddressDetails { get; set; }
 
+        public DbSet<ProductsAPI.Models.Login> Login { get; set; }
+
     }
 }
